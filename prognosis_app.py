@@ -5,11 +5,6 @@ import os
 import pandas as pd
 import numpy as np
 from pycaret.classification import *
-#import matplotlib.pyplot as plt
-#from analysis_app import run__analysis_app
-#from predict_app import run_predict_app
-#import pickle
-#import joblib
 def run_prognosis_app():
 
     answer = pd.read_csv('data/answer.csv')
