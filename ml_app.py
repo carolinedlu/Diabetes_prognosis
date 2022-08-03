@@ -1,6 +1,5 @@
 import streamlit as st 
 import streamlit.components.v1 as stc
-#from streamlit_option_menu import option_menu
 from PIL import Image
 import pandas as pd
 
