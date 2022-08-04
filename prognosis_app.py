@@ -3,7 +3,7 @@ import streamlit as st
 from PIL import Image
 import os
 import pandas as pd
-import numpy as np
+#import numpy as np
 from pycaret.classification import *
 
 def run_prognosis_app():
