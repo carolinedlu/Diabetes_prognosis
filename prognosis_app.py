@@ -5,6 +5,11 @@ import os
 import pandas as pd
 import numpy as np
 from pycaret.classification import *
+#import matplotlib.pyplot as plt
+#from analysis_app import run__analysis_app
+#from predict_app import run_predict_app
+#import pickle
+#import joblib
 def run_prognosis_app():
 
     answer = pd.read_csv('data/answer.csv')
@@ -94,7 +99,7 @@ def run_prognosis_app():
             st.image(img,use_column_width=True)
 
     c1,c2=st.columns([2,1])
-    if smoke > 0:
+    if smoke > 1:
         with c1:
             st.markdown("You are a smoker. We suggest that you considering quit smoking.")
             st.markdown("Smokers are 30% to 40% more likely to develop diabetes than nonsmokers as high levels of nicotine makes regulate blood sugar more difficult. Quitting smoking is also the single best way to protect family members, coworkers and friends from the health risks associated with breathing secondhand smoke")
