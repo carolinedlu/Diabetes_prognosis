@@ -1,8 +1,7 @@
 import streamlit as st
 from PIL import Image
-#import streamlit.components.v1 as components
 import pandas as pd
-#import numpy as np
+import numpy as np
 from prognosis_app import run_prognosis_app
 
 def run_quest_app():
