@@ -1,7 +1,5 @@
 streamlit
 streamlit-option-menu
-streamlit.components
-streamlit.components
 pycaret==3.0.0.rc3
 pandas==1.3.5
 numpy==1.21.5
