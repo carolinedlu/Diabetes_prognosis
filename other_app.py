@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
-import streamlit.components as stc
-import streamlit.components.v1 as components
+#import streamlit.components as stc
+#import streamlit.components.v1 as components
 
 def run_other_app():
     st.text("")
