@@ -1,3 +1,5 @@
+--find-links=https://github.com/AliceKoh/Diabetes_prognosis.git
+
 streamlit
 streamlit-option-menu
 
