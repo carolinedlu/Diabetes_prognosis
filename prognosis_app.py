@@ -1,9 +1,7 @@
 import streamlit as st
-#import streamlit.components.v1 as stc
 from PIL import Image
 import os
 import pandas as pd
-#import numpy as np
 from pycaret.classification import *
 
 def run_prognosis_app():
