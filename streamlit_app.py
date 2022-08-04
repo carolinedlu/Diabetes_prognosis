@@ -1,10 +1,7 @@
 import streamlit as st
-#import streamlit.components.v1 as components
 from streamlit_option_menu import option_menu
 from PIL import Image
 import pandas as pd
-#import numpy as np
-#import os
 from home_app import run_home_app
 from quest_app import run_quest_app
 from prognosis_app import run_prognosis_app
